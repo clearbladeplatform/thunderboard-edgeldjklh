@@ -1,0 +1,14 @@
+{
+    "architecture": "linux32arm",
+    "deploy_command": "./deploy.sh",
+    "description": "Device Control Bluetooth Thunderboard",
+    "logs_command": "journalctl -u tbscannermonitor.service -n 500",
+    "name": "tbscanner",
+    "os": "",
+    "protocol": "",
+    "start_command": "/usr/local/bin/adapters/tbscanner/start.sh",
+    "status_command": "/usr/local/bin/adapters/tbscanner/status.sh",
+    "stop_command": "/usr/local/bin/adapters/tbscanner/stop.sh",
+    "undeploy_command": "/usr/local/bin/adapters/tbscanner/undeploy.sh",
+    "version": 13
+}
