@@ -1,0 +1,123 @@
+{
+    "deployInfo": [
+        {
+            "edge": "{\"FILTERS\":[[{\"EQ\":[{\"name\":\"ThunderPi\"}]}]]}",
+            "platform": false,
+            "resource_identifier": "pressureHistory",
+            "resource_type": "service",
+            "system_key": "88aeb19d0bc2ad9dc199c7a59550"
+        },
+        {
+            "edge": "*",
+            "platform": false,
+            "resource_identifier": "AddThunderboardDevice",
+            "resource_type": "service",
+            "system_key": "88aeb19d0bc2ad9dc199c7a59550"
+        },
+        {
+            "edge": "*",
+            "platform": false,
+            "resource_identifier": "NewThunderboardDevice",
+            "resource_type": "trigger",
+            "system_key": "88aeb19d0bc2ad9dc199c7a59550"
+        },
+        {
+            "edge": "{\"FILTERS\":[[{\"EQ\":[{\"name\":\"ThunderPi\"}]}]]}",
+            "platform": false,
+            "resource_identifier": "ThunderboardMessageProcessor",
+            "resource_type": "service",
+            "system_key": "88aeb19d0bc2ad9dc199c7a59550"
+        },
+        {
+            "edge": "{\"FILTERS\":[[{\"EQ\":[{\"name\":\"ThunderPi\"}]}]]}",
+            "platform": false,
+            "resource_identifier": "ThunderboardMessageProcessorTrigger",
+            "resource_type": "trigger",
+            "system_key": "88aeb19d0bc2ad9dc199c7a59550"
+        },
+        {
+            "edge": "{\"FILTERS\":[[{\"EQ\":[{\"name\":\"ThunderPi\"}]}]]}",
+            "platform": false,
+            "resource_identifier": "EdgePlatformMessageProcessor",
+            "resource_type": "service",
+            "system_key": "88aeb19d0bc2ad9dc199c7a59550"
+        },
+        {
+            "edge": "{\"FILTERS\":[[{\"EQ\":[{\"name\":\"ThunderPi\"},{\"name\":\"ThunderMac\"}]}]]}",
+            "platform": false,
+            "resource_identifier": "SendPlatformMessage",
+            "resource_type": "service",
+            "system_key": "88aeb19d0bc2ad9dc199c7a59550"
+        },
+        {
+            "edge": "{\"FILTERS\":[[{\"EQ\":[{\"name\":\"ThunderMac\"}]}]]}",
+            "platform": false,
+            "resource_identifier": "EdgeSendPlatformMessage",
+            "resource_type": "service",
+            "system_key": "88aeb19d0bc2ad9dc199c7a59550"
+        },
+        {
+            "edge": "*",
+            "platform": false,
+            "resource_identifier": "ProcessEnvironment",
+            "resource_type": "service",
+            "system_key": "88aeb19d0bc2ad9dc199c7a59550"
+        },
+        {
+            "edge": "*",
+            "platform": false,
+            "resource_identifier": "Statistics",
+            "resource_type": "library",
+            "system_key": "88aeb19d0bc2ad9dc199c7a59550"
+        },
+        {
+            "edge": "*",
+            "platform": false,
+            "resource_identifier": "ProcessEnvironmentTimer",
+            "resource_type": "timer",
+            "system_key": "88aeb19d0bc2ad9dc199c7a59550"
+        },
+        {
+            "edge": "*",
+            "platform": false,
+            "resource_identifier": "CreateBlankCollection",
+            "resource_type": "service",
+            "system_key": "88aeb19d0bc2ad9dc199c7a59550"
+        },
+        {
+            "edge": "*",
+            "platform": false,
+            "resource_identifier": "ProcessEnv",
+            "resource_type": "service",
+            "system_key": "88aeb19d0bc2ad9dc199c7a59550"
+        },
+        {
+            "edge": "*",
+            "platform": false,
+            "resource_identifier": "PurgeEnv",
+            "resource_type": "service",
+            "system_key": "88aeb19d0bc2ad9dc199c7a59550"
+        },
+        {
+            "edge": "*",
+            "platform": false,
+            "resource_identifier": "PurgePlatformMessageQueues",
+            "resource_type": "timer",
+            "system_key": "88aeb19d0bc2ad9dc199c7a59550"
+        },
+        {
+            "edge": "{\"FILTERS\":[[{\"EQ\":[{\"name\":\"ThunderMac\"},{\"name\":\"ThunderPi\"}]}]]}",
+            "platform": false,
+            "resource_identifier": "be96879e0bf0d0c9b9d9e68eb64f",
+            "resource_type": "collection",
+            "system_key": "88aeb19d0bc2ad9dc199c7a59550"
+        },
+        {
+            "edge": "*",
+            "platform": false,
+            "resource_identifier": "ProcessEnvTimer",
+            "resource_type": "timer",
+            "system_key": "88aeb19d0bc2ad9dc199c7a59550"
+        }
+    ]
+}
