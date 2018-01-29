@@ -1,0 +1,14 @@
+{
+    "architecture": "linux32arm",
+    "deploy_command": "./deploy.sh",
+    "description": "This adapter simulates the Thunderboard",
+    "logs_command": "journalctl -u tbsimulator -n 500",
+    "name": "tbsimualtor",
+    "os": "",
+    "protocol": "",
+    "start_command": "/usr/local/bin/adapters/tbsimulator/start.sh",
+    "status_command": "/usr/local/bin/adapters/tbsimulator/status.sh",
+    "stop_command": "/usr/local/bin/adapters/tbsimulator/stop.sh",
+    "undeploy_command": "/usr/local/bin/adapters/tbsimulator/undeploy.sh",
+    "version": 9
+}
