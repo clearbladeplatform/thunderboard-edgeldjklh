@@ -1,0 +1,10 @@
+{
+    "current_version": 9,
+    "dependencies": "clearblade,log",
+    "logging_enabled": "true",
+    "name": "PurgeThunderboardCollection",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "PurgeThunderboardCollection.js"
+}
