@@ -1,0 +1,10 @@
+{
+    "current_version": 19,
+    "dependencies": "clearblade,log",
+    "logging_enabled": "true",
+    "name": "PurgeEnv",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "PurgeEnv.js"
+}
