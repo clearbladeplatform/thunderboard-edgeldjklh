@@ -1,0 +1,10 @@
+{
+    "current_version": 40,
+    "dependencies": "clearblade,log",
+    "logging_enabled": "true",
+    "name": "ProcessEnv",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "ProcessEnv.js"
+}
