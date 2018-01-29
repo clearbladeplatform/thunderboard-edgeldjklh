@@ -1,0 +1,12 @@
+{
+    "current_version": 10,
+    "dependencies": "log,clearblade",
+    "logging_enabled": "true",
+    "name": "AddThunderboardDevice",
+    "params": [],
+    "permissions": {
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "AddThunderboardDevice.js"
+}
