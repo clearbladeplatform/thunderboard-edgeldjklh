@@ -1,0 +1,14 @@
+{
+    "current_version": 4,
+    "dependencies": "clearblade,log",
+    "logging_enabled": "true",
+    "name": "ThunderboardMessageProcessor",
+    "params": [
+        "topic"
+    ],
+    "permissions": {
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "ThunderboardMessageProcessor.js"
+}
