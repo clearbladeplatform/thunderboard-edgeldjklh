@@ -1,0 +1,12 @@
+{
+    "current_version": 175,
+    "dependencies": "clearblade,log,Statistics",
+    "logging_enabled": "true",
+    "name": "ProcessEnvironment",
+    "params": [],
+    "permissions": {
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "ProcessEnvironment.js"
+}
