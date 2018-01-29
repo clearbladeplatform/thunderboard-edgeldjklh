@@ -1,0 +1,12 @@
+{
+    "current_version": 1,
+    "dependencies": "clearblade,log",
+    "logging_enabled": "true",
+    "name": "PurgeQueue",
+    "params": [],
+    "permissions": {
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "PurgeQueue.js"
+}
