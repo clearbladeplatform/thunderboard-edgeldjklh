@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "",
+    "description": "This is used to do stdev, etc",
+    "name": "Statistics",
+    "version": 2,
+    "visibility": "system"
+}
