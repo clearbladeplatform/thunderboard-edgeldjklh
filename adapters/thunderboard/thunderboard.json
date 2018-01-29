@@ -1,0 +1,14 @@
+{
+    "architecture": "linux32arm",
+    "deploy_command": "./deploy.sh",
+    "description": "This Adaptor is the lightweight 'Read Environment' only",
+    "logs_command": "journalctl -u thunderboardmonitor.service -n 500",
+    "name": "thunderboard",
+    "os": "",
+    "protocol": "",
+    "start_command": "/usr/local/bin/adapters/thunderboard/start.sh",
+    "status_command": "/usr/local/bin/adapters/thunderboard/status.sh",
+    "stop_command": "/usr/local/bin/adapters/thunderboard/stop.sh",
+    "undeploy_command": "/usr/local/bin/adapters/thunderboard/undeploy.sh",
+    "version": 7
+}
