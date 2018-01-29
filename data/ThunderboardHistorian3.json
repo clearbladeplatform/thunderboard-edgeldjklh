@@ -1,0 +1,73 @@
+{
+    "app_id": "88aeb19d0bc2ad9dc199c7a59550",
+    "collection_id": "c093b0a60bace2c9e2b0cc90be5c",
+    "items": [],
+    "name": "ThunderboardHistorian3",
+    "permissions": {
+        "Administrator": 15,
+        "Anonymous": 0,
+        "Authenticated": 1
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "deviceid",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "recorddate",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "sound",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "co2",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "temperature",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "voc",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "battery",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "humidity",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "ambientlight",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "pressure",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "uvindex",
+            "ColumnType": "int",
+            "PK": false
+        }
+    ]
+}
