@@ -1,0 +1,16 @@
+{
+    "current_version": 11,
+    "dependencies": "clearblade,log",
+    "logging_enabled": "true",
+    "name": "pressureHistory",
+    "params": [
+        "deviceid"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1,
+        "PortalDemo": 1
+    },
+    "run_user": "",
+    "source": "pressureHistory.js"
+}
